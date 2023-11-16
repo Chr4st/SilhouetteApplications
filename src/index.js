@@ -3,7 +3,7 @@ const client = new Client();
 require('discord-buttons')(client);
 const chalk = require("chalk");
 const fs = require("fs");
-
+####
 client.commands = new Collection();
 
 fs.readdir(__dirname + "/bot/events/", (err, files) => {
